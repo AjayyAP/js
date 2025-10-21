@@ -1,0 +1,1 @@
+it is an javascript future that allows you to unpack values from arrays or properties from object in to seperate variables.

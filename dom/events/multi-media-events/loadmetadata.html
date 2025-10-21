@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio id="addmetadata" controls>
+        <source src="./WhatsApp Audio 2025-10-13 at 13.00.31_442652ce.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        const addMetadata = document.getElementById('addmetadata');
+        addMetadata.addEventListener('loadedmetadata', () => {
+            alert('loadmetadata fired!! Duration: ' + addMetadata.duration + 'seconds')
+        })
+    </script>
+</body>
+
+</html>

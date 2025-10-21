@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>remove child</h1>
+    <div id="container">
+        <h2>ajay</h2>
+        <p id="child">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam ab eos maiores quam ratione
+            atque. Nisi provident in molestias incidunt sit similique culpa at quam iste eligendi, libero fugit? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam ab eos maiores quam ratione atque.
+            Nisi provident in molestias incidunt sit similique culpa at quam iste eligendi, libero fugit?
+        </p>
+
+    </div>
+
+    <button onclick="removechildElement()">remove child</button>
+    <script>
+        function removechildElement() {
+            let parent = document.getElementById("container");
+            let child = document.getElementById("child");
+            parent.removeChild(child);
+        }
+    </script>
+</body>
+
+</html>

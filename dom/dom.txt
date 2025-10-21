@@ -1,0 +1,3 @@
+document object model .it is an programming interface provided by browser
+it allows javascript to access manipulate the structure style and content of a webpage.
+programming interface -> it is a set of tools methods and rules that allow software to interact with something else such as system ,service or document.

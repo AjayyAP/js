@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> audio events: play pause ended </h2>
+    <audio id="audio player " controls>
+        <source src="/dom/events/multi-media-events/WhatsApp Audio 2025-10-13 at 13.00.31_442652ce.mp3" type="">
+    </audio>
+    <p id="eventoutput">
+        event will appear here
+    </p>
+
+    <script>
+        const audio = document.getElementById("audioplayer");
+        const output = document.getElementById("eventoutput");
+
+        //play event
+
+        audio.addEventListener('play', () => {
+            output.textContent = "play event fired";
+            console.log("play event fired!!");
+
+        })
+    </script>
+
+</body>
+
+</html> -->
+
+<!-- // pause -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>audio event: play pause ended</h2>
+
+    <audio id="audiopause" controls>
+        <source src="/dom/events/multi-media-events/WhatsApp Audio 2025-10-13 at 13.00.31_442652ce.mp3" type="audio/mpeg">
+       
+    </audio>
+
+
+    
+<p id="eventOutput"></p>
+
+    <script>
+        const audio = document.getElementById("audiopause");
+        const output = document.getElementById("eventOutput");
+
+        audio.addEventListener('pause', () => {
+            output.textContent = "pause event fired!";
+            console.log("pause event fired!");
+        })
+    </script>
+</body>
+</html> -->
+
+<!-- //end -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>audio event: play pause ended</h2>
+
+    <audio id="audioended" controls>
+        <source src="/dom/events/multi-media-events/WhatsApp Audio 2025-10-13 at 13.00.31_442652ce.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+
+
+    <p id="eventOutput"></p>
+
+    <script>
+        const audio = document.getElementById("audioended");
+        const output = document.getElementById("eventOutput");
+
+        audio.addEventListener('ended', () => {
+            output.textContent = "ended event fired!";
+            console.log("ended event fired!");
+        })
+    </script>
+</body>
+
+</html>

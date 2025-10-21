@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio controls id="audiocanplay">
+        <source src="./WhatsApp Audio 2025-10-13 at 13.00.31_442652ce.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const audiocanplay = document.getElementById('audiocanplay');
+        audiocanplay.addEventListener('canplay', () => {
+            alert('canplay fired')
+        })
+    </script>
+</body>
+
+</html>

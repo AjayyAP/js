@@ -1,0 +1,12 @@
+predefined functions(built in function or native methods)
+ppredrfined function are function that are already provided by js
+
+1.save time 
+2.increase code readability
+3. optimized
+
+
+----types-----
+1.math functions
+2.string function
+3.date

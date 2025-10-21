@@ -1,0 +1,7 @@
+// spread operator {...} in js is used to spread out the elements of the array or properties of an object
+// its allows copy,combine or expand
+
+
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1];
+console.log(arr2);

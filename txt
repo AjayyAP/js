@@ -1,0 +1,27 @@
+diffrents bw synchronous and asynchronous ?
+what is dom ?
+what are the datatypes in js ?
+event in js ?
+what are closure in js ?
+diifrents bw map and forEach ?
+what is callback function ?
+inheritence in js ?
+purpose of try-catch ?
+purpose of addEvenListener method in js ?
+diffrents bw query selector and query selector all ?
+diffrents bw null and undifined ?
+diifrents bw == and ===?
+hoisting in js ?
+'this' keyword in js ?
+diffrents ways to define function in js ?
+purpose of let var const ?
+diff bw primitive and non primitive datatypes 
+use of spread operators ?
+ternary operators in js ?
+rest-parameter ?
+filter?
+js?
+
+
+
+

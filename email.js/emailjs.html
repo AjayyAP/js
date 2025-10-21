@@ -98,6 +98,7 @@
         (function () {
             emailjs.init("ap_1HIrlybdLWic1Z") // public key
         })();
+        
         // handle for submit
         document.getElementById(contact - form).addEventListener("submit", function (event) {
             emailjs.sendform("service_f4o35yv", "template_00dmwzt", this)
